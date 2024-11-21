@@ -1,0 +1,7 @@
+# ninja log v6
+1	495	1732163555495290207	CMakeFiles/PokeDex.dir/Pokemon.cpp.o	beeaf5035a05852
+1	549	1732163555495082414	CMakeFiles/PokeDex.dir/Pokedex.cpp.o	4c519277e81f31b9
+1	549	1732163555494540454	CMakeFiles/PokeDex.dir/main.cpp.o	12b48b26938ff5d8
+3	467	1732163609700762867	CMakeFiles/PokeDex.dir/main.cpp.o	12b48b26938ff5d8
+4	473	1732163648905404212	CMakeFiles/PokeDex.dir/handleMenu.cpp.o	e7109d28ab75c36f
+474	597	1732163649374911677	PokeDex	e630bef62d4eea84

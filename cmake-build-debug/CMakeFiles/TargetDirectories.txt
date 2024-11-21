@@ -1,0 +1,3 @@
+/Users/denny/PokeDex/cmake-build-debug/CMakeFiles/PokeDex.dir
+/Users/denny/PokeDex/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/denny/PokeDex/cmake-build-debug/CMakeFiles/rebuild_cache.dir
