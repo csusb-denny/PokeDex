@@ -17,6 +17,7 @@ Pokemon::Pokemon(const std::string& name,
       location(location),
       kind(kind) {}
 
+
 // Display Pokemon info
 void Pokemon::displayInfo() const {
     std::cout << "Name: " << name << "\n"

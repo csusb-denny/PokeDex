@@ -43,3 +43,4 @@ Teddiursa,Normal,Route 36,Little Bear
 Ursaring,Normal,Johto,Big Bear
 Magmar,Fire,Route 42,Fire
 Electabuzz,Electric,Route 38,Electric
+
