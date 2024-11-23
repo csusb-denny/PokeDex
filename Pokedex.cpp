@@ -31,6 +31,18 @@ void Pokedex::searchByLocation(const std::string& location) const {
 
 // Search Pokémon by kind
 void Pokedex::searchByKind(const std::string& kind) const {
+    bool found = false;         //track matches
+
+    for(const auto& pokemon : pokemons) {
+        if(pokemon.getKind() == kind) {
+            pokemon.displayInfo();
+            std::cout << "------------\n";
+            found = true;
+        }
+    }
+    if(!found) {
+        std::cout << "Invalid Kind\n";
+    }
 }
 
 // Filter Pokémon by type
