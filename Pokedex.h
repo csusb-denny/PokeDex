@@ -14,6 +14,8 @@ private:
     std::vector<Pokemon> pokemons;
 
 public:
+    // loadPokemon
+    void loadPokemonFromFile(const std::string& filename);
     // Add a Pokémon to the Pokedex
     void addPokemon(const Pokemon& pokemon);
 

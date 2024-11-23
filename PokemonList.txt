@@ -1,0 +1,99 @@
+Chikorita,Grass,New Bark Town,Leaf Pokémon
+Bayleef,Grass,Route 29,Leaf Pokémon
+Meganium,Grass,Route 45,Herb Pokémon
+Cyndaquil,Fire,New Bark Town,Fire Mouse Pokémon
+Quilava,Fire,Route 36,Volcano Pokémon
+Typhlosion,Fire,Route 44,Volcano Pokémon
+Totodile,Water,New Bark Town,Big Jaw Pokémon
+Croconaw,Water,Route 30,Big Jaw Pokémon
+Feraligatr,Water,Route 42,Big Jaw Pokémon
+Sentret,Normal,Route 29,Scout Pokémon
+Furret,Normal,Route 37,Long Body Pokémon
+Hoothoot,Normal/Flying,Route 29,Owl Pokémon
+Noctowl,Normal/Flying,Route 31,Owl Pokémon
+Ledyba,Bug/Flying,Route 30,Five Star Pokémon
+Ledian,Bug/Flying,Route 37,Five Star Pokémon
+Spinarak,Bug/Poison,Route 30,String Spit Pokémon
+Ariados,Bug/Poison,Route 37,Long Leg Pokémon
+Crobat,Poison/Flying,Route 41,Bat Pokémon
+Chinchou,Water/Electric,Whirl Islands,Angler Pokémon
+Lanturn,Water/Electric,Whirl Islands,Light Pokémon
+Pichu,Electric,Route 29,Tiny Mouse Pokémon
+Cleffa,Fairy,Mount Mortar,Star Shape Pokémon
+Igglybuff,Normal/Fairy,Route 34,Balloon Pokémon
+Togepi,Fairy,Goldenrod City,Spike Ball Pokémon
+Togetic,Fairy/Flying,Route 45,Happiness Pokémon
+Natu,Psychic/Flying,Ruins of Alph,Tiny Bird Pokémon
+Xatu,Psychic/Flying,Ruins of Alph,Mystic Pokémon
+Mareep,Electric,Route 32,Wool Pokémon
+Flaaffy,Electric,Route 42,Wool Pokémon
+Ampharos,Electric,Route 43,Light Pokémon
+Bellossom,Grass,Route 45,Flower Pokémon
+Marill,Water/Fairy,Route 42,Aqua Mouse Pokémon
+Azumarill,Water/Fairy,Route 44,Aqua Rabbit Pokémon
+Sudowoodo,Rock,Route 36,Imitation Pokémon
+Politoed,Water,Route 44,Frog Pokémon
+Hoppip,Grass/Flying,Route 32,Cottonweed Pokémon
+Skiploom,Grass/Flying,Route 33,Cottonweed Pokémon
+Jumpluff,Grass/Flying,Route 44,Cottonweed Pokémon
+Aipom,Normal,Route 44,Long Tail Pokémon
+Sunkern,Grass,National Park,Seed Pokémon
+Sunflora,Grass,National Park,Sun Pokémon
+Yanma,Bug/Flying,Route 35,Clear Wing Pokémon
+Wooper,Water/Ground,Route 32,Water Fish Pokémon
+Quagsire,Water/Ground,Route 42,Water Fish Pokémon
+Espeon,Psychic,Evolve Eevee,Solar Pokémon
+Umbreon,Dark,Evolve Eevee,Moonlight Pokémon
+Murkrow,Dark/Flying,Route 7,Dusk Pokémon
+Slowking,Water/Psychic,Route 41,Royal Pokémon
+Misdreavus,Ghost,Mount Silver,Screech Pokémon
+Unown,Psychic,Ruins of Alph,Symbol Pokémon
+Wobbuffet,Psychic,Dark Cave,Patient Pokémon
+Girafarig,Normal/Psychic,Route 43,Long Neck Pokémon
+Pineco,Bug,Route 29,Bagworm Pokémon
+Forretress,Bug/Steel,Route 44,Bagworm Pokémon
+Dunsparce,Normal,Dark Cave,Land Snake Pokémon
+Gligar,Ground/Flying,Route 45,Fly Scorpion Pokémon
+Steelix,Steel/Ground,Route 42,Iron Snake Pokémon
+Snubbull,Fairy,Route 38,Fairy Pokémon
+Granbull,Fairy,Route 39,Fairy Pokémon
+Qwilfish,Water/Poison,Route 32,Balloon Pokémon
+Scizor,Bug/Steel,Evolve Scyther,Pincer Pokémon
+Shuckle,Bug/Rock,Cianwood City,Mold Pokémon
+Heracross,Bug/Fighting,Route 33,Single Horn Pokémon
+Sneasel,Dark/Ice,Ice Path,Sharp Claw Pokémon
+Teddiursa,Normal,Route 45,Little Bear Pokémon
+Ursaring,Normal,Route 28,Hibernator Pokémon
+Slugma,Fire,Route 16,Lava Pokémon
+Magcargo,Fire/Rock,Route 47,Lava Pokémon
+Swinub,Ice/Ground,Ice Path,Pig Pokémon
+Piloswine,Ice/Ground,Ice Path,Swine Pokémon
+Corsola,Water/Rock,Route 41,Coral Pokémon
+Remoraid,Water,Route 44,Jet Pokémon
+Octillery,Water,Route 45,Jet Pokémon
+Delibird,Ice/Flying,Ice Path,Delivery Pokémon
+Mantine,Water/Flying,Route 41,Kite Pokémon
+Skarmory,Steel/Flying,Route 45,Armor Bird Pokémon
+Houndour,Dark/Fire,Route 7,Dark Pokémon
+Houndoom,Dark/Fire,Route 44,Dark Pokémon
+Kingdra,Water/Dragon,Evolve Seadra,Dragon Pokémon
+Phanpy,Ground,Route 45,Long Nose Pokémon
+Donphan,Ground,Route 28,Armor Pokémon
+Porygon2,Normal,Evolve Porygon,Virtual Pokémon
+Stantler,Normal,Route 37,Big Horn Pokémon
+Smeargle,Normal,Route 35,Painter Pokémon
+Tyrogue,Fighting,Mount Mortar,Scuffle Pokémon
+Hitmontop,Fighting,Route 42,Handstand Pokémon
+Smoochum,Ice/Psychic,Ice Path,Kiss Pokémon
+Elekid,Electric,Route 34,Electric Pokémon
+Magby,Fire,Route 10,Live Coal Pokémon
+Miltank,Normal,Route 39,Milk Cow Pokémon
+Blissey,Normal,Evolve Chansey,Happiness Pokémon
+Raikou,Electric,Roaming Legend,Thunder Pokémon
+Entei,Fire,Roaming Legend,Volcano Pokémon
+Suicune,Water,Roaming Legend,Aurora Pokémon
+Larvitar,Rock/Ground,Route 45,Rock Skin Pokémon
+Pupitar,Rock/Ground,Route 47,Hard Shell Pokémon
+Tyranitar,Rock/Dark,Route 48,Armor Pokémon
+Lugia,Psychic/Flying,Whirl Islands,Diving Pokémon
+Ho-Oh,Fire/Flying,Bell Tower,Rainbow Pokémon

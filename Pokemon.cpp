@@ -3,7 +3,10 @@
 //
 #include "Pokemon.h"
 #include <iostream>
+#include <fstream>
+#include <sstream>
 
+#include "Pokedex.h"
 // Constructor implementation
 Pokemon::Pokemon(const std::string& name, const std::string& type, const std::string& location, const std::string& kind)
     : name(name), elementType(type), location(location), kind(kind) {}
@@ -14,4 +17,4 @@ void Pokemon::displayInfo() const {
               << "Type: " << elementType << "\n"
               << "Location: " << location << "\n"
               << "Kind: " << kind << "\n";
-}
+};
