@@ -6,6 +6,7 @@
 #define POKEMON_H
 #include <iostream>
 #include <string>
+#include <vector>
 
 class Pokemon {
 
@@ -33,6 +34,10 @@ public:
     }
     // Display information
     void displayInfo() const;
+    // load pokemon
+    void loadPokemonFromFile(const std::string& fileName);
+private:
+    std::string trim(const std::string& str);
 };
 
 #endif // POKEMON_H

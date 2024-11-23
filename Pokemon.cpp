@@ -8,8 +8,14 @@
 
 #include "Pokedex.h"
 // Constructor implementation
-Pokemon::Pokemon(const std::string& name, const std::string& type, const std::string& location, const std::string& kind)
-    : name(name), elementType(type), location(location), kind(kind) {}
+Pokemon::Pokemon(const std::string& name,
+    const std::string& type,
+    const std::string& location,
+    const std::string& kind)
+    : name(name),
+      elementType(type),
+      location(location),
+      kind(kind) {}
 
 // Display Pokemon info
 void Pokemon::displayInfo() const {
