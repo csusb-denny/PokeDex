@@ -62,10 +62,13 @@ void Pokedex::displayAll() const {
 void Pokedex::loadPokemonFromFile(const std::string& filename) {
     std::ifstream file(filename);
     if(!file.is_open()) {
+        std::cout << "File unable to open";
         return;
     }
     std::string line;
     while(std::getline(file, line)) {
+        //        std::cout << "Line Load: " << line << std::endl;              //debugging purposes
+
         std::stringstream ss(line);
         std::string name, type, location, kind;
 
@@ -73,8 +76,12 @@ void Pokedex::loadPokemonFromFile(const std::string& filename) {
         std::getline(ss, type, ',');
         std::getline(ss, location, ',');
         std::getline(ss, kind);
-
+        Pokemon pokemon(name, type, location, kind);
         pokemons.emplace_back(name, type, location, kind);
+        pokemon.displayInfo();
+        std::cout << "-------";
     }
     file.close();
+
+
 }
