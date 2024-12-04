@@ -36,29 +36,29 @@ void Pokedex::searchByLocation(const std::string& location) const {
 void Pokedex::searchByKind(const std::string& kind) const {
     bool found = false; // Track if any matches are found
 
-    // Convert user input to lowercase
+    //Convert user input to lowercase
     std::string searchKind = kind;
     std::transform(searchKind.begin(), searchKind.end(), searchKind.begin(), [](unsigned char c) {
         return std::tolower(c);
     });
 
     for (const auto& pokemon : pokemons) {
-        // Convert Pokémon's kind to lowercase
+        //Convert Pokémon's kind to lowercase
         std::string pokemonKind = pokemon.getKind();
         std::transform(pokemonKind.begin(), pokemonKind.end(), pokemonKind.begin(), [](unsigned char c) {
             return std::tolower(c);
         });
 
-        // Compare in lowercase
+        //Compare in lowercase
         if (pokemonKind == searchKind) {
-            pokemon.displayInfo(); // Display Pokémon details
+            pokemon.displayInfo(); //Display Pokémon details
             std::cout << "------------\n";
             found = true;
         }
     }
 
     if (!found) {
-        std::cout << "Invalid Kind\n"; // Inform user if no matches are found
+        std::cout << "Invalid Kind\n"; // no matches are found
     }
 }
 
