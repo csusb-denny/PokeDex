@@ -9,11 +9,11 @@
 #include <fstream>
 #include <sstream>
 
-// Add a Pokémon to the Pokedex
+// Add a Pokémon to the Pokedex ****DANIEL******
 void Pokedex::addPokemon(const Pokemon& pokemon) {
 }
 
-// Remove a Pokémon by name
+// Remove a Pokémon by name *******DANIEL********
 bool Pokedex::removePokemon(const std::string& name) {
     return true;
 }
@@ -31,7 +31,7 @@ void Pokedex::searchByType(const std::string& type) const {
 void Pokedex::searchByLocation(const std::string& location) const {
 }
 
-// Search Pokémon by kind
+// Search Pokémon by kind   *****DENNY******
 void Pokedex::searchByKind(const std::string& kind) const {
     bool found = false;         //track matches
 
@@ -47,10 +47,10 @@ void Pokedex::searchByKind(const std::string& kind) const {
     }
 }
 
-// Display all Pokémon
+// Display all Pokémon *****DANIEL******
 void Pokedex::displayAll() const {
 }
-
+//**DENNY***
 void Pokedex::loadPokemonFromFile(const std::string& filename) {
     std::ifstream file(filename);
     if(!file.is_open()) {

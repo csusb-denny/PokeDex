@@ -15,21 +15,21 @@ private:
 
 public:
     // loadPokemon
-    void loadPokemonFromFile(const std::string& filename);
+    void loadPokemonFromFile(const std::string& filename);  //denny
     // Add a Pokémon to the Pokedex
-    void addPokemon(const Pokemon& pokemon);
+    void addPokemon(const Pokemon& pokemon);            //Daniel
 
     // Remove a Pokémon by name
-    bool removePokemon(const std::string& name);
+    bool removePokemon(const std::string& name);        //Daniel
 
     // Search functions
     Pokemon* searchByName(const std::string& name);
     void searchByType(const std::string& type) const;
     void searchByLocation(const std::string& location) const;
-    void searchByKind(const std::string& kind) const;
+    void searchByKind(const std::string& kind) const;   //denny
 
     // Display all Pokémon
-    void displayAll() const;
+    void displayAll() const;        //daniel
 };
 
 #endif // POKEDEX_H
