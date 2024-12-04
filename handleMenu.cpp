@@ -17,10 +17,8 @@ void handleMenu(Pokedex& pokedex) {
                   << "4. Search Pokémon by Type\n"
                   << "5. Search Pokémon by Location\n"
                   << "6. Search Pokémon by Kind\n"
-                  << "7. Filter Pokémon by Type\n"
-                  << "8. Filter Pokémon by Location\n"
-                  << "9. Display All Pokémon\n"
-                  << "10. Exit\n"
+                  << "7. Display All Pokémon\n"
+                  << "8. Exit\n"
                   << "Enter your choice: ";
         std::cin >> choice;
 
