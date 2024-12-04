@@ -88,30 +88,14 @@ void handleMenu(Pokedex& pokedex) {
                 pokedex.searchByKind(kind);
                 break;
             }
-            case 7: {
-                std::string type;
-                std::cout << "Enter type to filter: ";
-                std::cin.ignore();
-                std::getline(std::cin, type);
-                pokedex.filterByType(type);
-                break;
-            }
-            case 8: {
-                std::string location;
-                std::cout << "Enter location to filter: ";
-                std::cin.ignore();
-                std::getline(std::cin, location);
-                pokedex.filterByLocation(location);
-                break;
-            }
-            case 9:
+            case 7:
                 pokedex.displayAll();
                 break;
-            case 10:
+            case 8:
                 std::cout << "Exiting Pokedex. Goodbye!\n";
                 break;
             default:
                 std::cout << "Invalid choice. Try again.\n";
         }
-    } while (choice != 10);
+    } while (choice != 8);
 }
