@@ -6,6 +6,7 @@
 #include "Pokedex.h"
 #include <iostream>
 #include <algorithm>
+#include <cctype>
 #include <fstream>
 #include <sstream>
 
@@ -33,17 +34,31 @@ void Pokedex::searchByLocation(const std::string& location) const {
 
 // Search Pokémon by kind   *****DENNY******
 void Pokedex::searchByKind(const std::string& kind) const {
-    bool found = false;         //track matches
+    bool found = false; // Track if any matches are found
 
-    for(const auto& pokemon : pokemons) {
-        if(pokemon.getKind() == kind) {
-            pokemon.displayInfo();
+    // Convert user input to lowercase
+    std::string searchKind = kind;
+    std::transform(searchKind.begin(), searchKind.end(), searchKind.begin(), [](unsigned char c) {
+        return std::tolower(c);
+    });
+
+    for (const auto& pokemon : pokemons) {
+        // Convert Pokémon's kind to lowercase
+        std::string pokemonKind = pokemon.getKind();
+        std::transform(pokemonKind.begin(), pokemonKind.end(), pokemonKind.begin(), [](unsigned char c) {
+            return std::tolower(c);
+        });
+
+        // Compare in lowercase
+        if (pokemonKind == searchKind) {
+            pokemon.displayInfo(); // Display Pokémon details
             std::cout << "------------\n";
             found = true;
         }
     }
-    if(!found) {
-        std::cout << "Invalid Kind\n";
+
+    if (!found) {
+        std::cout << "Invalid Kind\n"; // Inform user if no matches are found
     }
 }
 
