@@ -28,10 +28,6 @@ public:
     void searchByLocation(const std::string& location) const;
     void searchByKind(const std::string& kind) const;
 
-    // Filter functions
-    void filterByType(const std::string& type) const;
-    void filterByLocation(const std::string& location) const;
-
     // Display all Pokémon
     void displayAll() const;
 };

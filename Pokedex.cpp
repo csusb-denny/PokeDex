@@ -47,14 +47,6 @@ void Pokedex::searchByKind(const std::string& kind) const {
     }
 }
 
-// Filter Pokémon by type
-void Pokedex::filterByType(const std::string& type) const {
-}
-
-// Filter Pokémon by location
-void Pokedex::filterByLocation(const std::string& location) const {
-}
-
 // Display all Pokémon
 void Pokedex::displayAll() const {
 }
