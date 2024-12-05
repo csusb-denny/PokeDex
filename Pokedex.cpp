@@ -19,17 +19,88 @@ bool Pokedex::removePokemon(const std::string& name) {
     return true;
 }
 
-// Search Pokémon by name
+// Search Pokémon by name  by ******OMAR******
 Pokemon* Pokedex::searchByName(const std::string& name) {
-    return nullptr;
+    // convert the pokemon name lower case
+    std::string searchName = name;
+    std::transform(searchName.begin(), searchName.end(), searchName.begin(), [](unsigned char c) {
+        return std::tolower(c);
+    });
+
+    for (const auto& pokemon : pokemons) {
+        //Convert Pokémon's name to lowercase
+        std::string pokemonName = pokemon.getName();
+        std::transform(pokemonName.begin(), pokemonName.end(), pokemonName.begin(), [](unsigned char c) {
+            return std::tolower(c);
+        });
+
+        //Compare names in lowercase
+        if (pokemonName == searchName) {
+            return &pokemon;   // return a pointer to the found pokemon
+        }
+        else  {
+            std::cout << "Invalid pokemon name.\n"; // no name matches are found
+        }
 }
 
-// Search Pokémon by type
+// Search Pokémon by type  *****OMAR******
 void Pokedex::searchByType(const std::string& type) const {
+    // convert the pokemon type to lower case
+    std::string searchType = type;
+    std::transform(searchType.begin(), searchType.end(), searchType.begin(), [](unsigned char c) {
+        return std::tolower(c);
+    });
+
+    bool found = false; // to track if any matches are found
+
+    for (const auto& pokemon : pokemons) {
+        //Convert Pokémon's type to lowercase
+        std::string pokemonType = pokemon.getType();
+        std::transform(pokemonType.begin(), pokemonType.end(), pokemonType.begin(), [](unsigned char c) {
+            return std::tolower(c);
+        });
+
+        //Compare types in lowercase
+        if (pokemonType == searchType) {
+            pokemon.displayInfo(); // Display Pokémon type details
+            std::cout << "----------------------------\n";
+            found = true;
+        }
+    }
+    //if no pokemon type is found 
+    if (!found) {
+        std::cout << "No Pokémon type: " << type << " found. \n";
+    }
 }
 
-// Search Pokémon by location
+// Search Pokémon by location   ****OMAR*****
 void Pokedex::searchByLocation(const std::string& location) const {
+    // convert the input location to lower case
+    std::string searchLocation = location;
+    std::transform(searchLocation.begin(), searchLocation.end(), searchLocation.begin(), [](unsigned char c) {
+        return std::tolower(c);
+    });
+
+    bool found = false; // to track if any matches are found
+
+    for (const auto& pokemon : pokemons) {
+        //Convert Pokémon's location to lowercase
+        std::string pokemonLocation = pokemon.getLocation();
+        std::transform(pokemonLocation.begin(), pokemonLocation.end(), pokemonLocation.begin(), [](unsigned char c) {
+            return std::tolower(c);
+        });
+
+        //Compare locations in lowercase
+        if (pokemonLocation == searchLocation) {
+            pokemon.displayInfo(); // Display Pokémon type details
+            std::cout << "----------------------------\n";
+            found = true;
+        }
+    }
+    //if no pokemon location is found 
+    if (!found) {
+        std::cout << "No Pokémon found in: " << type << ". \n";
+    }  
 }
 
 // Search Pokémon by kind   *****DENNY******
