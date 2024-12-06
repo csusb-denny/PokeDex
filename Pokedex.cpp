@@ -27,20 +27,19 @@ Pokemon* Pokedex::searchByName(const std::string& name) {
         return std::tolower(c);
     });
 
-    for (const auto& pokemon : pokemons) {
+    for (auto& pokemon : pokemons) {
         //Convert Pokémon's name to lowercase
         std::string pokemonName = pokemon.getName();
         std::transform(pokemonName.begin(), pokemonName.end(), pokemonName.begin(), [](unsigned char c) {
             return std::tolower(c);
         });
-
         //Compare names in lowercase
         if (pokemonName == searchName) {
             return &pokemon;   // return a pointer to the found pokemon
         }
-        else  {
-            std::cout << "Invalid pokemon name.\n"; // no name matches are found
-        }
+    }
+    std::cout << "Invalid pokemon name.\n"; // no name matches are found
+    return nullptr;
 }
 
 // Search Pokémon by type  *****OMAR******
@@ -99,7 +98,7 @@ void Pokedex::searchByLocation(const std::string& location) const {
     }
     //if no pokemon location is found 
     if (!found) {
-        std::cout << "No Pokémon found in: " << type << ". \n";
+        std::cout << "No Pokémon found in: " << location << ". \n";
     }  
 }
 
@@ -130,6 +129,7 @@ void Pokedex::searchByKind(const std::string& kind) const {
 
     if (!found) {
         std::cout << "Invalid Kind\n"; // no matches are found
+        return;
     }
 }
 
