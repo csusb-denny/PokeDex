@@ -27,6 +27,40 @@ void Pokedex::addPokemon(const Pokemon& pokemon) {
 
 // Remove a Pokémon by name *******DANIEL********
 bool Pokedex::removePokemon(const std::string& name) {
+    // Will open the file
+    std::ifstream inputFile("PokemonList.txt");
+    std::vector<std::string> lines;
+    std::string line;
+    bool found = false;
+
+    while (std::getline(inputFile, line)) {
+        // Check if the line has the name of the Pokemon
+        if (line.find(name) == std::string::npos) {
+            lines.push_back(line); 
+        } 
+        else {
+            found = true;
+        }
+    }
+
+    inputFile.close();
+
+    // Will return false if the pokemon wasn't found
+    if (!found) {
+    return false;
+    }
+
+    // Will rewrite the lines back into the file
+    std::ofstream outputFile("PokemonList.txt", std::ios::trunc);
+
+    for (size_t i = 0; i < lines.size(); ++i) {
+        outputFile << lines[i];
+        if (i < lines.size() - 1) {
+            outputFile << std::endl;
+        }
+    }
+
+    outputFile.close();
     return true;
 }
 
