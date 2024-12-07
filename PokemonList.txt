@@ -11,12 +11,12 @@ Sentret,Normal,Route 29,Scout
 Furret,Normal,Johto,Long Body
 Hoothoot,Flying,Route 29,Owls
 Noctowl,Flying,Johto,Nocturnal
-Ledyba,Bug,Flying,Five Star
-Ledian,Bug,Flying,Five Star
+Ledyba,Bug/Flying,Five Star
+Ledian,Bug/Flying,Five Star
 Spinarak,Bug,Route 31,Small Spider
 Ariados,Bug,Johto,Long Legged
-Chinchou,Water,Electric,Route 41,Angler
-Lanturn,Water,Electric,Johto,Lamp
+Chinchou,Water/Electric,Route 41,Angler
+Lanturn,Water/Electric,Johto,Lamp
 Pichu,Electric,Johto,Tiny Mouse
 Pikachu,Electric,Johto,Mouse
 Raichu,Electric,Johto,Mouse
@@ -25,19 +25,19 @@ Flaaffy,Electric,Route 33,Electric Sheep
 Ampharos,Electric,Johto,Light
 Sudowoodo,Rock,Route 36,Imitating Tree
 Politoed,Water,Route 35,Frog
-Hoppip,Grass,Flying,Route 33,Wind
-Skiploom,Grass,Flying,Route 36,Wind
-Jumpluff,Grass,Flying,Johto,Cloud
+Hoppip,Grass/Flying,Route 33,Wind
+Skiploom,Grass/Flying,Route 36,Wind
+Jumpluff,Grass/Flying,Johto,Cloud
 Aipom,Normal,Route 42,Long Tail
 Sunkern,Grass,Route 34,Seed
 Sunflora,Grass,Johto,Sun
-Wooper,Water,Ground,Route 33,Water Fish
-Quagsire,Water,Ground,Johto,Water Fish
+Wooper,Water/Ground,Route 33,Water Fish
+Quagsire,Water/Ground,Johto,Water Fish
 Espeon,Psychic,Johto,Sun
 Umbreon,Dark,Johto,Night
-Murkrow,Dark,Flying,Johto,Dark
-Slowking,Water,Psychic,Route 34,Wise
-Slowpoke,Water,Psychic,Route 34,Dopey
+Murkrow,Dark/Flying,Johto,Dark
+Slowking,Water/Psychic,Route 34,Wise
+Slowpoke,Water/Psychic,Route 34,Dopey
 Donphan,Ground,Johto,Armor
 Teddiursa,Normal,Route 36,Little Bear
 Ursaring,Normal,Johto,Big Bear
