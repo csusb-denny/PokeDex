@@ -12,6 +12,17 @@
 
 // Add a Pokémon to the Pokedex ****DANIEL******
 void Pokedex::addPokemon(const Pokemon& pokemon) {
+        // Open the file
+    std::ofstream file("PokemonList.txt", std::ios::app);
+    
+    // Will store information on a new line
+    file << "\n" 
+         << pokemon.getName() << "," 
+         << pokemon.getType() << "," 
+         << pokemon.getLocation() << "," 
+         << pokemon.getKind() << "";
+        
+    file.close();
 }
 
 // Remove a Pokémon by name *******DANIEL********
