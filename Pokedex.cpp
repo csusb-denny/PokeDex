@@ -180,6 +180,18 @@ void Pokedex::searchByKind(const std::string& kind) const {
 
 // Display all Pokémon *****DANIEL******
 void Pokedex::displayAll() const {
+    // File is opened
+    std::ifstream file("PokemonList.txt");
+
+    // Displays the text
+    std::string line;
+    while (std::getline(file, line)) {
+        if (!line.empty()) {
+            std::cout << line << std::endl;
+        }
+    }
+
+    file.close();
 }
 //**DENNY***
 void Pokedex::loadPokemonFromFile(const std::string& filename) {
